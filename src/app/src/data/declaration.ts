@@ -2,207 +2,173 @@ import { Declaration } from "../models/Declaration";
 
 export const DECLARATIONS: Array<Declaration> = [
     {
-        "id": "68f54d96b198e4424033e543",
+        "id": "68fc9ee1610a0d1d1627cd6e",
         "picture": "http://placehold.it/32x32",
-        "comment": "veniam ea sunt fugiat adipisicing officia officia adipisicing minim non",
-        "status": "REJECTED",
-        "registered": "2019-10-02T06:10:33 -02:00",
-        "child": {
-            "gender": "female",
-            "eyeColor": "blue",
-            "firstName": "Cantu Bennett",
-            "lastName": "Ashley Frost",
-            "birthDate": "2014-08-14T02:23:09 -02:00"
-        },
-        "firstParen": {
-            "gender": "male",
-            "firstName": "Clark Rush",
-            "lastName": "Malone Schroeder",
-            "email": "maloneschroeder@printspan.com",
-            "phone": "+1 (832) 412-2554",
-            "address": "266 Nolans Lane, Terlingua, North Dakota, 4785"
-        },
-        "secondParen": {
-            "gender": "male",
-            "firstName": "Lang May",
-            "lastName": "Diann Fuentes",
-            "email": "diannfuentes@printspan.com",
-            "phone": "+1 (914) 445-2096",
-            "address": "209 River Street, Selma, West Virginia, 7448"
-        },
-        "company": {
-            "name": "culpa consectetur pariatur sit et laborum qui anim enim tempor",
-            "address": "824 Chauncey Street, Boomer, Kansas, 1927"
-        }
-    },
-    {
-        "id": "68f54d96824cacecadc55bca",
-        "picture": "http://placehold.it/32x32",
-        "comment": "velit velit velit laborum cillum officia minim aliquip mollit ut",
+        "comment": "reprehenderit commodo consequat et ad adipisicing id ad officia culpa",
         "status": "NEW",
-        "registered": "2016-08-30T05:23:37 -02:00",
+        "registered": "2024-12-18T11:16:44 -01:00",
         "child": {
             "gender": "female",
-            "eyeColor": "green",
-            "firstName": "Mamie Pollard",
-            "lastName": "Martinez Parrish",
-            "birthDate": "2017-10-06T05:44:10 -02:00"
-        },
-        "firstParen": {
-            "gender": "male",
-            "firstName": "Terri Olson",
-            "lastName": "Mejia Levine",
-            "email": "mejialevine@printspan.com",
-            "phone": "+1 (874) 431-3452",
-            "address": "908 Farragut Place, Kent, Tennessee, 4915"
-        },
-        "secondParen": {
-            "gender": "male",
-            "firstName": "Melisa Prince",
-            "lastName": "Aurora Perry",
-            "email": "auroraperry@printspan.com",
-            "phone": "+1 (971) 402-2104",
-            "address": "887 Harden Street, Turpin, Michigan, 3510"
-        },
-        "company": {
-            "name": "eu et adipisicing ullamco proident eiusmod nulla labore nisi irure",
-            "address": "894 Leonora Court, Kansas, Arizona, 9807"
-        }
-    },
-    {
-        "id": "68f54d967c42b00ccb56d92f",
-        "picture": "http://placehold.it/32x32",
-        "comment": "aliquip anim reprehenderit enim ut incididunt aliquip eu consequat ut",
-        "status": "ON_GOING",
-        "registered": "2017-11-04T03:13:15 -01:00",
-        "child": {
-            "gender": "female",
-            "eyeColor": "brown",
-            "firstName": "Crosby Mooney",
-            "lastName": "Phillips Michael",
-            "birthDate": "2017-12-07T03:24:04 -01:00"
-        },
-        "firstParen": {
-            "gender": "male",
-            "firstName": "Scott Berger",
-            "lastName": "Salas Carson",
-            "email": "salascarson@printspan.com",
-            "phone": "+1 (876) 486-2802",
-            "address": "912 Kingsway Place, Urie, South Dakota, 136"
-        },
-        "secondParen": {
-            "gender": "male",
-            "firstName": "Gina Holland",
-            "lastName": "Sykes Berg",
-            "email": "sykesberg@printspan.com",
-            "phone": "+1 (883) 513-3289",
-            "address": "958 Whitney Avenue, Golconda, Washington, 3854"
-        },
-        "company": {
-            "name": "est id tempor elit enim pariatur qui nulla sunt est",
-            "address": "442 Engert Avenue, Slovan, Oregon, 9724"
-        }
-    },
-    {
-        "id": "68f54d96c03c4ef1651f1094",
-        "picture": "http://placehold.it/32x32",
-        "comment": "laboris ullamco nulla commodo aute eiusmod minim deserunt esse ea",
-        "status": "ON_GOING",
-        "registered": "2023-08-28T07:42:08 -02:00",
-        "child": {
-            "gender": "male",
-            "eyeColor": "brown",
-            "firstName": "Laurie Meadows",
-            "lastName": "Mathews Nielsen",
-            "birthDate": "2014-07-09T06:10:28 -02:00"
-        },
-        "firstParen": {
-            "gender": "male",
-            "firstName": "Leann Pena",
-            "lastName": "Tamra Patterson",
-            "email": "tamrapatterson@printspan.com",
-            "phone": "+1 (998) 408-2509",
-            "address": "123 Frost Street, Gulf, Puerto Rico, 5055"
-        },
-        "secondParen": {
-            "gender": "female",
-            "firstName": "Terra Hyde",
-            "lastName": "Maddox Beasley",
-            "email": "maddoxbeasley@printspan.com",
-            "phone": "+1 (826) 550-3037",
-            "address": "135 Love Lane, Ventress, Idaho, 3375"
-        },
-        "company": {
-            "name": "cillum reprehenderit qui ex non occaecat est do elit incididunt",
-            "address": "377 Navy Walk, Worton, Rhode Island, 5718"
-        }
-    },
-    {
-        "id": "68f54d9680362dd68c2aabb5",
-        "picture": "http://placehold.it/32x32",
-        "comment": "fugiat nulla ex nisi sint eiusmod tempor eiusmod id exercitation",
-        "status": "REJECTED",
-        "registered": "2022-05-29T04:22:07 -02:00",
-        "child": {
-            "gender": "male",
-            "eyeColor": "brown",
-            "firstName": "Jeri Morris",
-            "lastName": "Steele Crosby",
-            "birthDate": "2024-01-18T05:54:00 -01:00"
-        },
-        "firstParen": {
-            "gender": "male",
-            "firstName": "Oliver Lindsey",
-            "lastName": "Joyce Osborn",
-            "email": "joyceosborn@printspan.com",
-            "phone": "+1 (987) 465-2178",
-            "address": "183 Overbaugh Place, Greenfields, Northern Mariana Islands, 992"
-        },
-        "secondParen": {
-            "gender": "male",
-            "firstName": "Oneal Bruce",
-            "lastName": "Mclean Finley",
-            "email": "mcleanfinley@printspan.com",
-            "phone": "+1 (870) 504-3610",
-            "address": "522 Guernsey Street, Robinette, Illinois, 6585"
-        },
-        "company": {
-            "name": "aliqua nisi ea minim dolor tempor fugiat nostrud ipsum enim",
-            "address": "807 President Street, Dexter, Maine, 9299"
-        }
-    },
-    {
-        "id": "68f54d9682ee396b4917d943",
-        "picture": "http://placehold.it/32x32",
-        "comment": "cupidatat consequat consequat aliqua minim sit duis nulla Lorem cillum",
-        "status": "ON_GOING",
-        "registered": "2023-09-03T04:00:41 -02:00",
-        "child": {
-            "gender": "male",
             "eyeColor": "blue",
-            "firstName": "Kelli Valdez",
-            "lastName": "Johnston Holt",
-            "birthDate": "2016-02-26T09:56:29 -01:00"
+            "firstName": "Roberson Britt",
+            "lastName": "Kaitlin Salazar",
+            "birthDate": "2022-04-27T07:45:58 -02:00"
         },
         "firstParen": {
-            "gender": "male",
-            "firstName": "Tameka Ryan",
-            "lastName": "Mitchell Cummings",
-            "email": "mitchellcummings@printspan.com",
-            "phone": "+1 (971) 560-2713",
-            "address": "890 Knight Court, Celeryville, Kentucky, 8548"
+            "gender": "female",
+            "firstName": "Karyn Marshall",
+            "lastName": "Coffey Davis",
+            "email": "coffeydavis@glasstep.com",
+            "phone": "+1 (886) 567-2201",
+            "address": "145 Terrace Place, Linganore, Oregon, 8858"
         },
         "secondParen": {
             "gender": "male",
-            "firstName": "Schultz Rice",
-            "lastName": "Kristina King",
-            "email": "kristinaking@printspan.com",
-            "phone": "+1 (802) 506-3431",
-            "address": "691 Oxford Street, Norris, Iowa, 769"
+            "firstName": "Emilia Morris",
+            "lastName": "Cobb Vang",
+            "email": "cobbvang@glasstep.com",
+            "phone": "+1 (893) 421-2212",
+            "address": "552 Halsey Street, Jessie, Ohio, 6125"
         },
         "company": {
-            "name": "esse in id elit Lorem ea magna enim magna aliqua",
-            "address": "169 Arkansas Drive, Rockhill, Minnesota, 8992"
+            "name": "PLEXIA",
+            "address": "434 Forest Place, Brownsville, Alabama, 4589"
+        }
+    },
+    {
+        "id": "68fc9ee181632ce4289c0c9b",
+        "picture": "http://placehold.it/32x32",
+        "comment": "ea adipisicing eu non excepteur do deserunt irure laborum eiusmod",
+        "status": "ON_GOING",
+        "registered": "2023-05-04T06:51:33 -02:00",
+        "child": {
+            "gender": "male",
+            "eyeColor": "green",
+            "firstName": "Lila Kane",
+            "lastName": "Gloria Barrett",
+            "birthDate": "2020-04-05T11:46:36 -02:00"
+        },
+        "firstParen": {
+            "gender": "female",
+            "firstName": "Hopper Weiss",
+            "lastName": "Louella Stanton",
+            "email": "louellastanton@plexia.com",
+            "phone": "+1 (817) 402-3412",
+            "address": "954 Holmes Lane, Utting, Michigan, 1973"
+        },
+        "secondParen": {
+            "gender": "female",
+            "firstName": "Strong Oliver",
+            "lastName": "Frost Gregory",
+            "email": "frostgregory@plexia.com",
+            "phone": "+1 (856) 481-2212",
+            "address": "342 Fleet Street, Wintersburg, Florida, 1926"
+        },
+        "company": {
+            "name": "HIVEDOM",
+            "address": "614 Veranda Place, Soham, Illinois, 8648"
+        }
+    },
+    {
+        "id": "68fc9ee12aa448f643c1c2a1",
+        "picture": "http://placehold.it/32x32",
+        "comment": "officia adipisicing nulla dolore dolore ex eiusmod mollit consectetur magna",
+        "status": "VALIDATED",
+        "registered": "2019-12-09T10:21:52 -01:00",
+        "child": {
+            "gender": "male",
+            "eyeColor": "green",
+            "firstName": "Peterson Garrett",
+            "lastName": "Roy Aguilar",
+            "birthDate": "2020-05-22T09:17:47 -02:00"
+        },
+        "firstParen": {
+            "gender": "male",
+            "firstName": "Brenda Carney",
+            "lastName": "Lesa Levy",
+            "email": "lesalevy@hivedom.com",
+            "phone": "+1 (922) 531-3211",
+            "address": "159 Oliver Street, Interlochen, Delaware, 8608"
+        },
+        "secondParen": {
+            "gender": "female",
+            "firstName": "Beasley Howard",
+            "lastName": "Chavez Benjamin",
+            "email": "chavezbenjamin@hivedom.com",
+            "phone": "+1 (933) 558-3829",
+            "address": "890 Montauk Avenue, Gardiner, Maryland, 154"
+        },
+        "company": {
+            "name": "TERRAGO",
+            "address": "339 Scott Avenue, Cannondale, New York, 1378"
+        }
+    },
+    {
+        "id": "68fc9ee1486da2daaefd80bb",
+        "picture": "http://placehold.it/32x32",
+        "comment": "anim ullamco ea cillum eu ullamco dolor eiusmod dolore Lorem",
+        "status": "REJECTED",
+        "registered": "2015-02-08T01:11:57 -01:00",
+        "child": {
+            "gender": "male",
+            "eyeColor": "brown",
+            "firstName": "Lucia Rosario",
+            "lastName": "Reed Castillo",
+            "birthDate": "2019-09-05T06:01:48 -02:00"
+        },
+        "firstParen": {
+            "gender": "male",
+            "firstName": "Miller Rhodes",
+            "lastName": "Gabrielle Branch",
+            "email": "gabriellebranch@terrago.com",
+            "phone": "+1 (905) 441-2445",
+            "address": "975 Seeley Street, Shindler, California, 3322"
+        },
+        "secondParen": {
+            "gender": "female",
+            "firstName": "Margaret Holloway",
+            "lastName": "Burns Wagner",
+            "email": "burnswagner@terrago.com",
+            "phone": "+1 (927) 563-3853",
+            "address": "546 Amersfort Place, Fontanelle, Pennsylvania, 9310"
+        },
+        "company": {
+            "name": "GLOBOIL",
+            "address": "544 Varet Street, Wauhillau, Nebraska, 1666"
+        }
+    },
+    {
+        "id": "68fc9ee1c3361e937174937a",
+        "picture": "http://placehold.it/32x32",
+        "comment": "ipsum minim tempor incididunt voluptate commodo veniam sint aute est",
+        "status": "NEW",
+        "registered": "2023-09-07T10:08:18 -02:00",
+        "child": {
+            "gender": "male",
+            "eyeColor": "green",
+            "firstName": "Natasha Hancock",
+            "lastName": "Luisa Sargent",
+            "birthDate": "2018-04-23T12:32:33 -02:00"
+        },
+        "firstParen": {
+            "gender": "female",
+            "firstName": "Loraine Wilkinson",
+            "lastName": "Fanny Watkins",
+            "email": "fannywatkins@globoil.com",
+            "phone": "+1 (947) 450-3090",
+            "address": "698 Rockaway Avenue, Strykersville, District Of Columbia, 2340"
+        },
+        "secondParen": {
+            "gender": "female",
+            "firstName": "Agnes Greer",
+            "lastName": "Michael Wright",
+            "email": "michaelwright@globoil.com",
+            "phone": "+1 (972) 551-2010",
+            "address": "697 Bergen Street, Cherokee, North Dakota, 8192"
+        },
+        "company": {
+            "name": "PEARLESEX",
+            "address": "330 Hampton Avenue, Colton, Mississippi, 9259"
         }
     }
 ]

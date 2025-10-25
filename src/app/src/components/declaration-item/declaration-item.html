@@ -1,4 +1,4 @@
-<article class="grid grid-cols-12 border-t border-gray-300 items-center " [class]="{'bg-gray-100':even()}">
+<article class="grid grid-cols-12 border-t border-gray-300 items-center text-center " [class]="{'bg-gray-100':even()}">
     <span class="p-2">{{item().registered}} </span>
     <span class="p-2 col-span-2 flex flex-col">
         <span>{{item().child.firstName}}</span>
@@ -20,7 +20,7 @@
     </span>
     <app-status-badge [status]="item().status"/>
  
-    <span class="p-2 flex gap-2">
+    <span class="p-2">
         <span>Action</span>
     </span>
 </article>
