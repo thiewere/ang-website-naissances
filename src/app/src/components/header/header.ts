@@ -1,4 +1,4 @@
-import { Component, inject, input, OnInit, signal} from '@angular/core';
+import { Component, inject, input, signal} from '@angular/core';
 import { DeclarationService } from '../../services/declarations/declaration-service';
 import { DeclarationItem } from "../declaration-item/declaration-item";
 

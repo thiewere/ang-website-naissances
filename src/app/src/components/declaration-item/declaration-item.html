@@ -18,9 +18,8 @@
         <span>{{item().secondParen.firstName}}</span>
         <span class="uppercase">{{item().secondParen.lastName}}</span>
     </span>
-    <span class="p-2 flex col-span-2">
-        <span>{{item().status}}</span>
-    </span>
+    <app-status-badge [status]="item().status"/>
+ 
     <span class="p-2 flex gap-2">
         <span>Action</span>
     </span>
