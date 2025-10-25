@@ -10,6 +10,6 @@ export type Declaration = {
     registered: string;
     child: Child;
     firstParen: UserProfile;
-    aecondParen: UserProfile;
+    secondParen: UserProfile;
     company: Company;
 }

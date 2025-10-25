@@ -1,0 +1,27 @@
+<article class="grid grid-cols-12 border-t border-gray-300 items-center " [class]="{'bg-gray-100':even()}">
+    <span class="p-2">{{item().registered}} </span>
+    <span class="p-2 col-span-2 flex flex-col">
+        <span>{{item().child.firstName}}</span>
+        <span class="uppercase">{{item().child.lastName}}</span>
+    </span>
+    <span class="p-2">
+        <span>{{item().child.birthDate}}</span>
+    </span>
+    <span class="p-2 flex gap-2">
+        <span>{{item().company.name}}</span>
+    </span>
+    <span class="p-2 col-span-2 flex flex-col">
+        <span>{{item().firstParen.firstName}}</span>
+        <span class="uppercase">{{item().firstParen.lastName}}</span>
+    </span>
+    <span class="p-2 flex col-span-2 flex flex-col">
+        <span>{{item().secondParen.firstName}}</span>
+        <span class="uppercase">{{item().secondParen.lastName}}</span>
+    </span>
+    <span class="p-2 flex col-span-2">
+        <span>{{item().status}}</span>
+    </span>
+    <span class="p-2 flex gap-2">
+        <span>Action</span>
+    </span>
+</article>

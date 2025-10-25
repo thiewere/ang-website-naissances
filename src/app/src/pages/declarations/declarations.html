@@ -1,0 +1,7 @@
+<!-- <pre>{{declarations() | json}}</pre> -->
+
+<section class="bg-white shadow-md mt-4">
+@for (item of declarations(); track item.id; let e = $even) {
+    <app-declaration-item [item]="item" [even]="$even" />
+}
+</section>
